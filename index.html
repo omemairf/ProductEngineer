@@ -33,16 +33,36 @@
   </div>
 </div></section>
 
-<section id="websites" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
-  <h2 class="h">Websites I built</h2>
-  <p class="lead">Two types of work: business websites and online stores. Pick a tab, the screenshots scroll by themselves.</p>
-  <div class="tabs" role="tablist" aria-label="Website type">
-    <button role="tab" id="t0" aria-selected="true" aria-controls="p0">Business websites</button>
-    <button role="tab" id="t1" aria-selected="false" aria-controls="p1">E-commerce</button>
+<section id="websites" style="background:var(--surface);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <h2 class="h">Websites I built</h2>
+    <p class="lead">Two types of work: business websites and online stores. Pick a tab, the screenshots scroll by themselves.</p>
+    
+    <div class="tabs" role="tablist" aria-label="Website type">
+      <button role="tab" id="t0" aria-selected="true" aria-controls="p0">Business websites</button>
+      <button role="tab" id="t1" aria-selected="false" aria-controls="p1">E-commerce</button>
+    </div>
+
+    <!-- Panel 0: Business Websites Images -->
+    <div class="panel" id="p0" role="tabpanel" aria-labelledby="t0">
+      <div class="image-scroll-track" style="display: flex; gap: 20px; overflow-x: auto; padding-bottom: 10px;">
+        <img src="img/biz1.jpg" alt="Business Website 1" style="width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <img src="img/biz2.jpg" alt="Business Website 2" style="width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <!-- Aap aur bhi <img src="..." alt="..."> yahan add kar sakte hain -->
+      </div>
+    </div>
+
+    <!-- Panel 1: E-commerce Websites Images -->
+    <div class="panel" id="p1" role="tabpanel" aria-labelledby="t1" hidden>
+      <div class="image-scroll-track" style="display: flex; gap: 20px; overflow-x: auto; padding-bottom: 10px;">
+        <img src="img/shop1.jpg" alt="E-commerce Store 1" style="width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <img src="img/shop2.jpg" alt="E-commerce Store 2" style="width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <!-- Aap aur bhi <img src="..." alt="..."> yahan add kar sakte hain -->
+      </div>
+    </div>
+
   </div>
-  <div class="panel" id="p0" role="tabpanel" aria-labelledby="t0"></div>
-  <div class="panel" id="p1" role="tabpanel" aria-labelledby="t1" hidden></div>
-</div></section>
+</section>
 
 <section id="design"><div class="wrap">
   <h2 class="h">Product design</h2>
