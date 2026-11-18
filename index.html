@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Omema Irfan – Frontend Developer & Project Coordinator</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><nav aria-label="Main"><b>Omema Irfan</b>
+<div><a href="#websites">Websites</a><a href="#design">Product design</a><a href="#pm">Project management</a><a href="#skills">Skills</a><a href="#contact">Contact</a><button class="tbtn" id="theme" aria-label="Toggle dark mode">Dark / light</button></div></nav></div></header>
+
+<div class="wrap"><div class="hero">
+  <div>
+    <h1>I build <span class="grad">beautiful interfaces</span> and keep projects on track.</h1>
+    <p>Frontend developer with a product and project management mindset. I design it, code it, plan it and track it, so the work ships on time and people enjoy using it.</p>
+    <div class="btns"><a class="btn p" href="#websites">See my websites</a><a class="btn s" href="#contact">Get in touch</a></div>
+    <div class="tags"><span class="tag">Frontend Developer</span><span class="tag">Junior Project Manager</span><span class="tag">Project Coordinator</span><span class="tag">Open to Europe</span></div>
+  </div>
+  <div class="board" aria-label="Interactive sprint board"><h3>Sprint board: tap a card to move it forward</h3><div class="cols" id="cols"></div><p class="hint">Tiny demo of how I think: clear stages, clear owners, no surprises.</p></div>
+</div></div>
+
+<div class="tools" aria-label="Tools I use"><div class="row" id="mq"></div></div>
+
+<section id="about"><div class="wrap">
+  <h2 class="h">Three hats, one goal</h2>
+  <div class="about"><img id="pic" class="pic" src="img/profile.jpg" alt="Portrait of Omema Irfan" width="200" height="200"><p class="lead">I’m the person who understands the code, the user and the deadline at the same time. That makes handoffs smoother and teams faster.</p></div>
+  <div class="grid">
+    <div class="box"><div class="ic">F</div><h3>Frontend</h3><p>Responsive, accessible websites and web apps with clean, maintainable code.</p></div>
+    <div class="box"><div class="ic">P</div><h3>Product</h3><p>User problems turned into simple flows, wireframes and polished UI before anything ships.</p></div>
+    <div class="box"><div class="ic">M</div><h3>Project</h3><p>Scope, schedule, risks and stakeholder updates, tracked in the tools teams actually use.</p></div>
+  </div>
+</div></section>
+
+<section id="websites" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+  <h2 class="h">Websites I built</h2>
+  <p class="lead">Two types of work: business websites and online stores. Pick a tab, the screenshots scroll by themselves.</p>
+  <div class="tabs" role="tablist" aria-label="Website type">
+    <button role="tab" id="t0" aria-selected="true" aria-controls="p0">Business websites</button>
+    <button role="tab" id="t1" aria-selected="false" aria-controls="p1">E-commerce</button>
+  </div>
+  <div class="panel" id="p0" role="tabpanel" aria-labelledby="t0"></div>
+  <div class="panel" id="p1" role="tabpanel" aria-labelledby="t1" hidden></div>
+</div></section>
+
+<section id="design"><div class="wrap">
+  <h2 class="h">Product design</h2>
+  <p class="lead">One sample case study, from research to tested prototype: a mobile checkout redesign for an online fashion store.</p>
+  <div class="tabs" id="dtabs" role="tablist" aria-label="Design stages"><button role="tab" aria-selected="true">Research</button><button role="tab" aria-selected="false">Wireframes</button><button role="tab" aria-selected="false">UI design</button><button role="tab" aria-selected="false">Test and learn</button></div>
+  <div class="file">
+  <div class="panel dp"><div class="two"><div><b>Persona: Sara, 27</b><p>Shops on her phone during her commute. Wants to pay in under a minute and hates retyping details.</p></div><div><b>Problems found</b><ul><li>Checkout has 5 steps</li><li>Forced account creation</li><li>Shipping cost shown only at the end</li></ul></div><div><b>Goal</b><p>Fewer steps, no surprises, one-thumb use on a small screen.</p></div></div></div>
+  <div class="panel dp" hidden><div class="phones"><div class="ph"><svg viewBox="0 0 120 220" role="img" aria-hidden="true"><rect x="3" y="3" width="114" height="214" rx="16" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/><rect x="42" y="9" width="36" height="5" rx="3" fill="var(--line)"/><rect x="14" y="26" width="92" height="10" rx="3" fill="var(--line)"/><rect x="14" y="48" width="26" height="26" rx="4" fill="var(--line)"/><rect x="46" y="52" width="60" height="6" rx="3" fill="var(--line)"/><rect x="46" y="64" width="38" height="6" rx="3" fill="var(--line)"/><rect x="14" y="84" width="26" height="26" rx="4" fill="var(--line)"/><rect x="46" y="88" width="60" height="6" rx="3" fill="var(--line)"/><rect x="46" y="100" width="38" height="6" rx="3" fill="var(--line)"/><rect x="14" y="186" width="92" height="20" rx="5" fill="none" stroke="var(--muted)" stroke-dasharray="4 3"/></svg>Bag</div><div class="ph"><svg viewBox="0 0 120 220" role="img" aria-hidden="true"><rect x="3" y="3" width="114" height="214" rx="16" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/><rect x="42" y="9" width="36" height="5" rx="3" fill="var(--line)"/><rect x="14" y="26" width="92" height="10" rx="3" fill="var(--line)"/><rect x="14" y="48" width="26" height="26" rx="4" fill="var(--line)"/><rect x="46" y="52" width="60" height="6" rx="3" fill="var(--line)"/><rect x="46" y="64" width="38" height="6" rx="3" fill="var(--line)"/><rect x="14" y="84" width="26" height="26" rx="4" fill="var(--line)"/><rect x="46" y="88" width="60" height="6" rx="3" fill="var(--line)"/><rect x="46" y="100" width="38" height="6" rx="3" fill="var(--line)"/><rect x="14" y="120" width="26" height="26" rx="4" fill="var(--line)"/><rect x="46" y="124" width="60" height="6" rx="3" fill="var(--line)"/><rect x="46" y="136" width="38" height="6" rx="3" fill="var(--line)"/><rect x="14" y="186" width="92" height="20" rx="5" fill="none" stroke="var(--muted)" stroke-dasharray="4 3"/></svg>Delivery</div><div class="ph"><svg viewBox="0 0 120 220" role="img" aria-hidden="true"><rect x="3" y="3" width="114" height="214" rx="16" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/><rect x="42" y="9" width="36" height="5" rx="3" fill="var(--line)"/><rect x="14" y="26" width="92" height="10" rx="3" fill="var(--line)"/><rect x="14" y="48" width="26" height="26" rx="4" fill="var(--line)"/><rect x="46" y="52" width="60" height="6" rx="3" fill="var(--line)"/><rect x="46" y="64" width="38" height="6" rx="3" fill="var(--line)"/><rect x="14" y="84" width="26" height="26" rx="4" fill="var(--line)"/><rect x="46" y="88" width="60" height="6" rx="3" fill="var(--line)"/><rect x="46" y="100" width="38" height="6" rx="3" fill="var(--line)"/><rect x="14" y="186" width="92" height="20" rx="5" fill="none" stroke="var(--muted)" stroke-dasharray="4 3"/></svg>Payment</div></div><p class="note">Low-fidelity layouts to agree on structure before any colour or branding.</p></div>
+  <div class="panel dp" hidden><div class="phones"><div class="ph"><svg viewBox="0 0 120 220" role="img" aria-hidden="true"><rect x="3" y="3" width="114" height="214" rx="16" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/><rect x="42" y="9" width="36" height="5" rx="3" fill="var(--line)"/><text x="14" y="34" font-size="11" font-weight="700" fill="var(--ink)">Your bag</text><rect x="14" y="48" width="30" height="30" rx="6" fill="var(--soft)"/><rect x="50" y="54" width="50" height="6" rx="3" fill="var(--ink)"/><rect x="50" y="66" width="30" height="5" rx="3" fill="var(--line)"/><rect x="14" y="88" width="30" height="30" rx="6" fill="var(--soft)"/><rect x="50" y="94" width="50" height="6" rx="3" fill="var(--ink)"/><rect x="50" y="106" width="30" height="5" rx="3" fill="var(--line)"/><text x="14" y="150" font-size="9" fill="var(--muted)">Total</text><text x="86" y="150" font-size="10" font-weight="700" fill="var(--ink)">€ 89</text><rect x="14" y="186" width="92" height="20" rx="6" fill="var(--blue)"/><text x="60" y="200" font-size="9" font-weight="700" fill="var(--onb)" text-anchor="middle">Continue</text></svg>Bag</div><div class="ph"><svg viewBox="0 0 120 220" role="img" aria-hidden="true"><rect x="3" y="3" width="114" height="214" rx="16" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/><rect x="42" y="9" width="36" height="5" rx="3" fill="var(--line)"/><text x="14" y="34" font-size="11" font-weight="700" fill="var(--ink)">Delivery</text><rect x="14" y="46" width="92" height="20" rx="6" fill="none" stroke="var(--line)" stroke-width="1.5"/><rect x="20" y="54" width="40" height="5" rx="2" fill="var(--line)"/><rect x="14" y="74" width="92" height="20" rx="6" fill="none" stroke="var(--line)" stroke-width="1.5"/><rect x="20" y="82" width="40" height="5" rx="2" fill="var(--line)"/><rect x="14" y="102" width="92" height="20" rx="6" fill="none" stroke="var(--line)" stroke-width="1.5"/><rect x="20" y="110" width="40" height="5" rx="2" fill="var(--line)"/><rect x="14" y="140" width="40" height="14" rx="7" fill="var(--soft)"/><text x="22" y="150" font-size="8" fill="var(--blue)">Standard</text><rect x="14" y="186" width="92" height="20" rx="6" fill="var(--blue)"/><text x="60" y="200" font-size="9" font-weight="700" fill="var(--onb)" text-anchor="middle">Continue</text></svg>Delivery</div><div class="ph"><svg viewBox="0 0 120 220" role="img" aria-hidden="true"><rect x="3" y="3" width="114" height="214" rx="16" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/><rect x="42" y="9" width="36" height="5" rx="3" fill="var(--line)"/><text x="14" y="34" font-size="11" font-weight="700" fill="var(--ink)">Pay</text><rect x="14" y="46" width="92" height="22" rx="6" fill="var(--ink)"/><text x="60" y="61" font-size="9" fill="var(--bg)" text-anchor="middle">Apple Pay</text><rect x="14" y="76" width="92" height="22" rx="6" fill="none" stroke="var(--line)" stroke-width="1.5"/><text x="60" y="91" font-size="9" fill="var(--ink)" text-anchor="middle">Card</text><circle cx="60" cy="140" r="14" fill="var(--ok)"/><path d="M53 140l5 5 10-10" stroke="#fff" stroke-width="3" fill="none"/><rect x="14" y="186" width="92" height="20" rx="6" fill="var(--blue)"/><text x="60" y="200" font-size="9" font-weight="700" fill="var(--onb)" text-anchor="middle">Continue</text></svg>Payment</div></div>
+    <div class="tok"><span><i style="background:var(--blue)"></i>Primary</span><span><i style="background:var(--coral)"></i>Accent</span><span><i style="background:var(--ok)"></i>Success</span><span><i style="background:var(--ink)"></i>Text</span><span><b>Type:</b> Bricolage Grotesque + DM Sans, 8 px spacing grid</span></div></div>
+  <div class="panel dp" hidden><div class="two"><div><b>Before</b><ul><li>5 steps, account required</li><li>Shipping cost at the end</li></ul></div><div><b>After</b><ul><li>3 steps, guest checkout</li><li>Shipping cost visible in the bag</li></ul></div><div><b>Tested and changed</b><ul><li>Users missed the promo field, so it moved up</li><li>Button label changed to “Continue to payment”</li></ul></div></div></div>
+  </div>
+  <p class="note">This is a sample case study I wrote for layout. Replace the screens with your real Figma frames and your real findings.</p>
+</div></section>
+
+<section id="pm" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+  <h2 class="h">Project management, in practice</h2>
+  <p class="lead">Not just tool names. Here is a sample project file the way I would set it up and run it. Click through the tabs.</p>
+  <div class="chips"><span class="chip"><b>MS Project</b> schedules</span><span class="chip"><b>Trello</b> boards</span><span class="chip"><b>Jira</b> sprints</span><span class="chip"><b>Excel</b> budgets</span><span class="chip"><b>Teams</b> stand-ups</span><span class="chip"><b>Agile, Scrum, Kanban, Waterfall</b></span></div>
+  <div class="tabs" id="pmtabs" role="tablist" aria-label="Project documents">
+    <button role="tab" aria-selected="true">Gantt</button><button role="tab" aria-selected="false">WBS</button><button role="tab" aria-selected="false">RACI</button><button role="tab" aria-selected="false">Risk register</button><button role="tab" aria-selected="false">Status report</button>
+  </div>
+  <div class="file">
+  <div class="ft"><span><b>Sample project:</b> Retail website launch, 8 weeks</span><span>Documents I also prepare: charter, scope statement, change log</span></div>
+
+  <div class="panel pmp tw"><div class="gt">
+    <div class="gr hd"><span>Task</span><span>W1</span><span>W2</span><span>W3</span><span>W4</span><span>W5</span><span>W6</span><span>W7</span><span>W8</span></div>
+    <div class="gr"><span>Kick-off & scope</span><i class="gb" style="grid-column:2/4;background:var(--blue)"></i></div>
+    <div class="gr"><span>Research & wireframes</span><i class="gb" style="grid-column:3/5;background:var(--blue)"></i></div>
+    <div class="gr"><span>UI design</span><i class="gb" style="grid-column:4/6;background:var(--coral)"></i></div>
+    <div class="gr"><span>Frontend build</span><i class="gb" style="grid-column:5/8;background:var(--blue)"></i></div>
+    <div class="gr"><span>Testing & fixes</span><i class="gb" style="grid-column:7/9;background:var(--ok)"></i></div>
+    <div class="gr"><span>Go-live milestone</span><i class="gb" style="grid-column:9/10;background:var(--coral)"></i></div>
+  </div><p class="note">Coral bars sit on the critical path: a delay there moves the launch date.</p></div>
+
+  <div class="panel pmp tw" hidden><div class="wbs">
+    <div class="top">0 Retail website launch</div>
+    <div class="wc"><h4>1 Initiate</h4><p>1.1 Charter<br>1.2 Stakeholder list<br>1.3 Scope sign-off</p></div>
+    <div class="wc"><h4>2 Design</h4><p>2.1 User research<br>2.2 Wireframes<br>2.3 UI kit in Figma</p></div>
+    <div class="wc"><h4>3 Build</h4><p>3.1 Page templates<br>3.2 Store and checkout<br>3.3 QA and fixes</p></div>
+    <div class="wc"><h4>4 Launch</h4><p>4.1 Go-live checklist<br>4.2 Training<br>4.3 Lessons learned</p></div>
+  </div><p class="note">Work broken into pieces small enough to estimate, assign and track.</p></div>
+
+  <div class="panel pmp tw" hidden><table><thead><tr><th>Task</th><th class="c">PM</th><th class="c">Designer</th><th class="c">Developer</th><th class="c">Client</th></tr></thead><tbody>
+  <tr><td>Approve scope</td><td class="c"><span class="rb R">R</span></td><td class="c"><span class="rb I">I</span></td><td class="c"><span class="rb C">C</span></td><td class="c"><span class="rb A">A</span></td></tr><tr><td>Deliver UI design</td><td class="c"><span class="rb A">A</span></td><td class="c"><span class="rb R">R</span></td><td class="c"><span class="rb C">C</span></td><td class="c"><span class="rb I">I</span></td></tr><tr><td>Build pages</td><td class="c"><span class="rb A">A</span></td><td class="c"><span class="rb C">C</span></td><td class="c"><span class="rb R">R</span></td><td class="c"><span class="rb I">I</span></td></tr><tr><td>Test and sign off</td><td class="c"><span class="rb R">R</span></td><td class="c"><span class="rb I">I</span></td><td class="c"><span class="rb C">C</span></td><td class="c"><span class="rb A">A</span></td></tr><tr><td>Go-live</td><td class="c"><span class="rb A">A</span></td><td class="c"><span class="rb I">I</span></td><td class="c"><span class="rb R">R</span></td><td class="c"><span class="rb C">C</span></td></tr>
+  </tbody></table><p class="note">R does the work, A owns the result (only one per task), C is consulted, I is informed.</p></div>
+
+  <div class="panel pmp tw" hidden><table><thead><tr><th>Risk</th><th>Chance</th><th>Impact</th><th>Response</th><th>Owner</th></tr></thead><tbody>
+  <tr><td>Client content arrives late</td><td><span class="pill hi">High</span></td><td><span class="pill md">Medium</span></td><td>Fixed content deadline in week 2, placeholder text as backup</td><td>PM</td></tr>
+  <tr><td>Scope creep</td><td><span class="pill md">Medium</span></td><td><span class="pill hi">High</span></td><td>Change request form, review weekly</td><td>PM</td></tr>
+  <tr><td>Browser bugs found late</td><td><span class="pill md">Medium</span></td><td><span class="pill md">Medium</span></td><td>Test on real devices from week 5</td><td>Developer</td></tr>
+  <tr><td>Key person unavailable</td><td><span class="pill lo">Low</span></td><td><span class="pill hi">High</span></td><td>Shared docs, a named backup</td><td>PM</td></tr>
+  </tbody></table></div>
+
+  <div class="panel pmp" hidden>
+    <div class="rag"><div><span class="dot" style="background:var(--ok)"></span><b>Schedule</b>On track</div><div><span class="dot" style="background:#E8A317"></span><b>Budget</b>Watch: 4% over</div><div><span class="dot" style="background:var(--ok)"></span><b>Scope</b>No open changes</div></div>
+    <b>Week 5 progress: 62%</b><div class="pg"><i></i></div>
+    <div class="two"><div><b>Done</b><ul><li>UI design approved</li><li>Navigation built</li></ul></div><div><b>Next week</b><ul><li>Checkout flow</li><li>Client review call</li></ul></div><div><b>Needs help</b><ul><li>Product photos from client by Friday</li></ul></div></div>
+  </div>
+  </div>
+  <p class="note">This is a sample setup, not a client project. Replace it with your real plans, or screenshots from MS Project or Trello, when you have them.</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2 class="h">Skills</h2>
+  <p class="lead">Bars are my best guess. Edit them to your real level, because interviewers will ask.</p>
+  <div class="grid">
+    <div class="box"><h3>Frontend</h3>
+      <div class="bar"><div>HTML & CSS<span>Strong</span></div><i><b style="width:90%"></b></i></div>
+      <div class="bar"><div>JavaScript<span>Good</span></div><i><b style="width:75%"></b></i></div>
+      <div class="bar"><div>React<span>Learning</span></div><i><b style="width:65%"></b></i></div>
+      <div class="bar"><div>Accessibility<span>Good</span></div><i><b style="width:70%"></b></i></div></div>
+    <div class="box"><h3>Product & design</h3>
+      <div class="bar"><div>Figma<span>Strong</span></div><i><b style="width:85%"></b></i></div>
+      <div class="bar"><div>Wireframing<span>Strong</span></div><i><b style="width:85%"></b></i></div>
+      <div class="bar"><div>User research<span>Good</span></div><i><b style="width:65%"></b></i></div>
+      <div class="bar"><div>Design systems<span>Growing</span></div><i><b style="width:60%"></b></i></div></div>
+    <div class="box"><h3>Project management</h3>
+      <div class="bar"><div>Agile / Scrum<span>Good</span></div><i><b style="width:75%"></b></i></div>
+      <div class="bar"><div>MS Project & Trello<span>Good</span></div><i><b style="width:80%"></b></i></div>
+      <div class="bar"><div>Stakeholder comms<span>Good</span></div><i><b style="width:75%"></b></i></div>
+      <div class="bar"><div>Risk planning<span>Growing</span></div><i><b style="width:60%"></b></i></div></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="cta">
+  <h2 class="h">Let’s work together</h2>
+  <p class="lead">Open to junior project manager, project coordinator and frontend developer roles across Europe. Remote and relocation both fine.</p>
+  <a class="big" href="mailto:you@example.com">you@example.com</a>
+  <div class="tags"><a class="tag" href="https://linkedin.com/in/yourname">LinkedIn</a><a class="tag" href="https://github.com/yourname">GitHub</a><a class="tag" href="#">Download CV</a></div>
+</div></div></section>
+<footer><div class="wrap">© 2026 Omema Irfan</div></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
