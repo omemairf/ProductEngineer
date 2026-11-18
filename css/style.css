@@ -25,8 +25,7 @@ nav a:hover{color:var(--ink)}
 .btn:hover{transform:translateY(-2px)}
 .btn.p{background:var(--blue);color:var(--onb)}
 .btn.s{border-color:var(--line);background:var(--surface)}
-.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
-.tag{background:var(--soft);color:var(--blue);padding:4px 13px;border-radius:99px;font-size:14px;font-weight:500;text-decoration:none}
+
 .board{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 30px 60px -30px rgba(14,27,51,.45)}
 .board h3{font:500 15px "DM Sans",sans-serif;color:var(--muted);margin-bottom:12px;letter-spacing:0}
 .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
