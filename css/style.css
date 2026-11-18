@@ -134,6 +134,10 @@ nav a:hover{color:var(--ink)}
     transition: .4s ease;
     box-shadow: 0 8px 20px rgba(0,0,0,.04);
 }
+.Portfolio-card:hover .scroll-inner,
+.Portfolio-card:hover .scroll-track{
+    animation-play-state: paused;
+}
 
 .Portfolio-card:hover{
     transform: translateY(-8px);
